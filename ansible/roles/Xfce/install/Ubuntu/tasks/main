@@ -1,0 +1,5 @@
+---
+- name: Install Xfce4 desktop
+  ansible.builtin.apt:
+    pkg:
+    - xfce4
